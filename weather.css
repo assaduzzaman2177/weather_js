@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(james-sullivan-x8l63IUeuwQ-unsplash.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 235, 236);
+    margin: 8px;
+}
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.container h1 {
+    padding: 25px 0px;
+}
+
+.container input[type="text"]{
+    height:35px;
+    width:300px;
+    border: 0;
+    outline: none;
+    margin: 0 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-sizing: border-box;
+
+}
+ ::placeholder{
+     color: rgb(13, 113, 126);
+ }
+ .btn{
+     padding: 10px 30px;
+     margin: 10px 0px;
+     border: none;
+     outline: none;
+     background: transparent;
+     border: 2px solid crimson;
+     color: white;
+     cursor: pointer;
+     transition: 0.3s ease-in-out;
+ }
+ .btn :hover{
+     background: yellowgreen;
+     color: yellowgreen;
+ }
+ .showData{
+     margin: 80px 0px;
+     line-height: 1.6;
+     font-size: 50px;
+     color: yellowgreen;
+     font-style: oblique 40deg;
+ }
+ .showData ul{
+     list-style-type: none;
+ }
+ .showData .city{
+     font-size: 5rem;
+
+ }
+ .showData .tem {
+     font-size: 10rem;
+     font-weight: bold;
+
+ }
+ .showData .desc {
+     font-size: 2rem;
+     text-transform: capitalize;
+ }
